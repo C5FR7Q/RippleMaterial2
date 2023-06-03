@@ -18,7 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 private val testAlphaList = listOf(0f, 0.25f, 0.5f, 0.75f, 1f)
-private val testColorList = listOf(Color.Black, Color.Red)
+private val testColorList = listOf(Color.Black, Color(67, 110, 222))
 private val backgroundColor = Color.White
 
 @Composable

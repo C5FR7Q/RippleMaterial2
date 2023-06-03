@@ -15,6 +15,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
@@ -104,8 +105,8 @@ private fun Preview4() {
 @Composable
 private fun Preview5() {
     TestCase(
-        defaultColor = Color(255, 0, 0),
-        pressedColor = Color(0, 255, 0)
+        defaultColor = Color(67, 110, 222),
+        pressedColor = Color(255, 0, 0)
     )
 }
 
